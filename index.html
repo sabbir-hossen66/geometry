@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" backgroundColor="white" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry</title>
+  <!-- daisy ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    #width {
+      margin-left: 5em;
+      border: 2px solid black;
+      border-radius: 5px;
+
+    }
+
+    #height {
+      margin-left: 5em;
+      border: 2px solid black;
+      border-radius: 5px;
+
+    }
+
+    #result {
+      margin-left: 5em;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>hello input fields</h1>
+  </header>
+  <main>
+    <div>
+      <input id="width" type="text" placeholder="width">
+      <input id="height" type="text" placeholder="height">
+      <input class="mt-5" id="result" type="text" placeholder="result">
+    </div>
+
+    <button class="btn w-473px mt-5 bg-purple-700 text-white ml-16" onclick="variousParameter()">sum</button>
+  </main>
+
+  <script src="genius.js"></script>
+  <script src="reusble.js"></script>
+</body>
+
+</html>
